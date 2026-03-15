@@ -78,7 +78,7 @@ void setup() {
       Serial.println(F("[CC1101] Selected receiver bandwidth is invalid for this module!"));
       while (true);
     } else {
-      Serial.print(F("[CC1101] setBandwidth [kHz] ")); Serial.println(bandwidth)
+      Serial.print(F("[CC1101] setBandwidth [kHz] ")); Serial.println(bandwidth);
     }
     radio.fixedPacketLengthMode(9);
   
